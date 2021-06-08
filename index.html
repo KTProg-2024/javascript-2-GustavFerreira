@@ -1,21 +1,40 @@
+
 <!DOCTYPE html>
 <html>
     <head>
         <title>Function Call</title>
-		<style>
-			#date {
-				text-align: center;
-			}
-		</style>
+    <style>
+      #date {
+        text-align: center;
+      }
+      #green{
+        font-style: italic;
+        background-color:green;
+        color:white;
+      }
+      #firebrick{
+        font-style: italic;
+        background-color:firebrick;
+        color:white;
+      }
+      #getDate{
+        height:40px;
+        width:80px;
+        font-style: italic;
+        background-color:royalblue;
+        color:gold;
+      }
+    </style>
     </head>
 
-	<body>
-		<p id="date">What is today's date?</p>
-		
-		<script src="date.js"></script>
+  <body>
+    <p id="date">What is today's date?</p>
+    
+    <script src="date.js"></script>
 
-		<script>getDate()</script>
-
-	</body>
+    <script>getDate()</script>
+    <button id="getDate" type="button" onclick="getDate()"> Update</button>
+    <button id="green" type="button" onclick="cornsilk()"> Green</button>
+    <button id="firebrick" type="button" onclick="firebrick()"> Chocolate</button>
+  </body>
 </html>
-
